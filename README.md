@@ -1,5 +1,5 @@
 <h1>COSC 344 DATABASE DESIGN ASSIGNMENT 2<h1>
-
+http://cs.otago.ac.nz/cosc344- COSC 344 homepage
 
 <h3>GROUP MEMBERS:<h3>
 <ul>
