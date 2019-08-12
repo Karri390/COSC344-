@@ -1,6 +1,6 @@
 DROP TABLE instructors;
 DROP TABLE lift_operators;
-DROP TABLE skiers;
+DROP TABLE skier;
 DROP TABLE lessons;
 DROP TABLE chair_lifts;
 DROP TABLE weather;
