@@ -14,6 +14,7 @@ CREATE TABLE instructors
     ADDRESS VARCHAR(100) NOT NULL
 );
 
+
 CREATE TABLE lift_operators
 (
     LID VARCHAR(4) PRIMARY KEY,
