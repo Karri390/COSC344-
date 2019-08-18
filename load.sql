@@ -14,6 +14,7 @@ CREATE TABLE instructors
     ADDRESS VARCHAR(100) NOT NULL
 );
 
+/* Insert 4 instructors */
 INSERT INTO instructors VALUES
 ('1001', 'Peter', 'Rubens', '6', '30 Turner, Queenstown');
 INSERT INTO instructors VALUES
@@ -33,8 +34,16 @@ CREATE TABLE lift_operators
     ADDRESS VARCHAR(100) NOT NULL
 );
 
+
+/* Insert 4 operators */
 INSERT INTO lift_operators VALUES
-('2001', 'Moby', 'Dick', '42', '54 Whale, Wellington');
+('2001', 'Moby', 'Dick', '42.0', '54 Whale, Wellington');
+INSERT INTO lift_operators VALUES
+('2002', 'Lancelot', 'Lac', '40.0', '18 Duke, Dunedin');
+INSERT INTO lift_operators VALUES
+('2003', 'Dorian', 'Gray', '36.0', '221 Upton, Wanaka');
+INSERT INTO lift_operators VALUES
+('2004', 'Olive', 'Twist', '54.0', '179 York, Queenstown');
 
 
 CREATE TABLE skier 
@@ -46,8 +55,29 @@ CREATE TABLE skier
     IID VARCHAR2(4)
 );
 
+
+/* Insert 10 skiers */
 INSERT INTO skier VALUES
-('01234567', 'James', 'Joyce', 'Beginner', '1002');
+('01234567', 'James', 'Joyce', 'Advanced', '1002');
+INSERT INTO skier VALUES
+('08765432', 'William', 'Yeats', 'Intermediate', '1004');
+INSERT INTO skier VALUES
+('05678901', 'Jane', 'Austen', 'Beginner', '1001');
+INSERT INTO skier VALUES
+('01436578', 'Oscar', 'Wilde', 'Intermediate', '1002');
+INSERT INTO skier VALUES
+('02341451', 'David', 'Lawrence', 'Beginner', '1003');
+INSERT INTO skier VALUES
+('02791412', 'William', 'Blake', 'Advanced', '1002');
+INSERT INTO skier VALUES
+('05235142', 'Angela', 'Carter', 'Advanced', '1004');
+INSERT INTO skier VALUES
+('02341452', 'George', 'Orwell', 'Beginner', '1003');
+INSERT INTO skier VALUES
+('02979514', 'Charles', 'Dickens', 'Intermediate', '1001');
+INSERT INTO skier VALUES
+('01642342', 'George', 'Eliot', 'Advanced', '1004');
+
 
 CREATE TABLE lessons
 (
