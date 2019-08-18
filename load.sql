@@ -55,7 +55,6 @@ CREATE TABLE skier
     IID VARCHAR2(4)
 );
 
-
 /* Insert 10 skiers */
 INSERT INTO skier VALUES
 ('01234567', 'James', 'Joyce', 'Advanced', '1002');
@@ -96,8 +95,40 @@ CREATE TABLE chair_lifts
 
 CREATE TABLE weather 
 (
-  WHEN DATE,
+    WHEN DATE
 );
+
+CREATE TABLE forecast
+(
+    WHEN DATE,
+    FORECAST VARCHAR(30)
+);
+
+CREATE TABLE take_lesson
+(
+    PHONE_NUMBER VARCHAR(15),
+    IID VARCHAR(4)
+);
+
+CREATE TABLE has_pass
+(
+    PHONE_NUMBER VARCHAR(15,
+    START_POINT VARCHAR(30)
+);
+
+CREATE TABLE lift_running
+(
+    WHEN DATE,
+    START_POINT VARCHAR(30),
+    IS_RUNNING CHAR
+);
+
+CREATE TABLE lesson_on
+(
+    IID VARCHAR(4),
+    START_POINT VARCHAR(30)
+);
+    
 
 
 COMMIT;
